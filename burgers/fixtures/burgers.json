@@ -1,0 +1,29 @@
+[
+  {
+        "model": "burgers.burger",
+        "pk": 1,
+        "fields": {
+            "name": "더블와퍼",
+            "price": 9600,
+            "calories": 842
+        }
+    },
+    {
+        "model": "burgers.burger",
+        "pk": 2,
+        "fields": {
+            "name": "트러플머쉬룸",
+            "price": 8100,
+            "calories": 776
+        }
+    },
+    {
+        "model": "burgers.burger",
+        "pk": 3,
+        "fields": {
+            "name": "통새우와퍼",
+            "price": 7700,
+            "calories": 741
+        }
+    }
+]
