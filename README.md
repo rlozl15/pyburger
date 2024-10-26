@@ -41,6 +41,8 @@ Django 프레임워크를 활용하여 웹 애플리케이션을 구축하며, �
 
 6. Django 서버 확인
    - http://localhost:8000에서 Django 애플리케이션에 접근할 수 있습니다.
+   ![img.png](static/img.png)
+   - 
 
 ## 사용 기술
     - 백엔드: Django
