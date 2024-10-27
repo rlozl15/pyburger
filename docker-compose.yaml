@@ -3,27 +3,8 @@ services:
   app:
     build: .
     command: >
-      sh -c "python manage.py runserver 0.0.0.0:8000"
+      bash -c "python manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/app
     ports:
       - "8000:8000"
-    depends_on:
-      - db
-
-  # MySQL 서비스
-  db:
-    image: mysql:8.0
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: rootpw
-      MYSQL_DATABASE: mydb
-      MYSQL_USER: myuser
-      MYSQL_PASSWORD: mypw
-    ports:
-      - "3306:3306"
-    volumes:
-      - db_data:/var/lib/mysql  # MySQL 데이터가 저장될 볼륨 설정
-
-volumes:
-  db_data:  # MySQL 데이터를 저장할 외부 볼륨
