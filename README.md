@@ -6,7 +6,7 @@
 ## 기간
 2024.10.24 ~ 2024.10.27
 
-## 주요 학습 내용
+## 주요 기능
 1. **Django 기반 웹 애플리케이션 구성**   
    Django 서버 실행, 데이터 모델 정의 및 ORM 사용, view와 template을 활용해 웹 페이지를 구성했습니다.
 
@@ -34,7 +34,7 @@
     docker-compose up -d --build
     ```
 
-4. **Django 앱 및 마이그레이션**   
+4. **Django 앱 마이그레이션**   
    데이터베이스 테이블을 생성하고 앱을 등록하기 위한 마이그레이션을 수행합니다.
     ``` bash
     docker-compose exec app python manage.py migrate
